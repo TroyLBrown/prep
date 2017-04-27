@@ -25,7 +25,7 @@ namespace code.prep.movies
 
     public Criteria<Item> not_equal_to(Property value)
     {
-      throw new System.NotImplementedException();
+            return equal_to(value).not();
     }
   }
 }
